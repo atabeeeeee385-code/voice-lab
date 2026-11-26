@@ -1,0 +1,11 @@
+{
+  "overall": 0.808,
+  "per_speaker": {
+    "george": 0.658,
+    "jackson": 0.878,
+    "lucas": 0.902,
+    "nicolas": 0.688,
+    "theo": 0.908,
+    "yweweler": 0.814
+  }
+}
