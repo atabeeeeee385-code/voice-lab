@@ -29,8 +29,8 @@ See `../docs/confusion_matrix.png`.
 ```bash
 pip install numpy scipy scikit-learn matplotlib
 git clone https://github.com/Jakobovski/free-spoken-digit-dataset fsdd
-python train.py fsdd/recordings      # evaluates + saves model.pkl
-python predict.py my_recording.wav   # one digit per WAV file, English
+python train.py fsdd/recordings      # evaluates + saves model.pkl (takes ~10 s)
+python predict.py my_recording.wav   # needs model.pkl from the step above; one digit per WAV, English
 ```
 
 ## Limits (be honest)
